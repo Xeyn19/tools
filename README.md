@@ -1,6 +1,6 @@
 # Tools
 
-A small collection of frontend and backend building blocks for a job-tracking style app.
+A small collection of frontend and backend building blocks for a job-tracking style app, plus Codex skills for common workflows.
 
 **Contents**
 - `app_react/`: React Router app shell and layout (sidebar + topbar).
@@ -8,6 +8,12 @@ A small collection of frontend and backend building blocks for a job-tracking st
 - `middleware/`: Express auth middleware and JWT helpers.
 - `MVC/`: MySQL connection pool and API route registry.
 - `server_app/`: Express app and server bootstrap.
+- `skills/`: Codex skills (`security/`, `responsive/`, `MVC/`).
+
+**Skills**
+- `skills/security/SKILL.md`: SQL injection prevention workflow (prepared statements, allowlists, tests).
+- `skills/responsive/SKILL.md`: Responsive design guidance for layouts, typography, and media.
+- `skills/MVC/SKILL.md`: MVC backend scaffold structure and integration checks.
 
 **Required Helpers And Dependencies**
 This repo contains snippets only. You will need to supply the surrounding project and dependencies.
